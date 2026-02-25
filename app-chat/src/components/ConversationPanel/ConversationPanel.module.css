@@ -1,0 +1,141 @@
+.conversation-panel {
+}
+.panel-header {
+  height: 6rem;
+  padding: 1rem;
+}
+.menu {
+  display: flex;
+  gap: 0.8rem;
+}
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-title {
+  font-size: 1.6rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  gap: 0.2rem;
+}
+.menu-title i {
+  cursor: pointer;
+}
+.quantity-message {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: #edf2f7;
+  border-radius: 2.4rem;
+  font-weight: bold;
+}
+.btn-add {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-radius: 999px;
+  background-color: #615ef0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.lines {
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 0.1rem;
+}
+
+.menu-search {
+  padding: 1rem 1rem;
+}
+.input-search {
+  padding: 0.1rem 0.2rem;
+  border-radius: 1.2rem;
+  background-color: #f3f3f3;
+  height: 3rem;
+}
+.input-search {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 0.5rem;
+}
+.input-search input {
+  background-color: #f3f3f3;
+  border: none;
+  flex: 1;
+}
+
+/* start list user */
+.list-message {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.item-message {
+  padding: 0.6rem;
+  display: flex;
+  gap: 1rem;
+  height: 10rem;
+  background-color: #bcd5e0;
+  border-radius: 1.5rem;
+}
+.item-user {
+  width: 3rem;
+  height: 3rem;
+}
+.item-user img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+.item-status {
+  flex: 1;
+}
+
+.item-name {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-name span {
+  font-size: 1.1rem;
+  color: #333333;
+  opacity: 60%;
+}
+.item-desc {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.1rem;
+}
+.box-status {
+  display: flex;
+  gap: 1rem;
+}
+.btn-question,
+.btn-help {
+  padding: 0.6rem 0.8rem;
+  border-radius: 999px;
+}
+.btn-question {
+  background-color: #feebc8;
+  color: #dd6b20;
+  font-weight: bold;
+}
+.btn-help {
+  background-color: #c6f6d5;
+  color: #38a169;
+  font-weight: bold;
+}
